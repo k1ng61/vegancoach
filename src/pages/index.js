@@ -41,6 +41,7 @@ export default function Home() {
 
     const tempconvo = [...convo, {"message": message, "by": "user"},{"message": jsondata.message, "by": "dan"}];
     setConvo(tempconvo);
+    setMessage('');
   }
   
   
