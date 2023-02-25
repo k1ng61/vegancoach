@@ -43,9 +43,7 @@ export default function Home() {
     setConvo(tempconvo);
   }
   
-  useEffect(() => {
-    console.log(convo);
-  }, [convo])
+  
   return (
     <>
       <Head>
