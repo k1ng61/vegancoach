@@ -32,6 +32,11 @@ export default async function handler(req, res){
     {
         “message”: “Hi, I'm Dan. Your personal vegan fitness instructor that will help you in your fitness journey.”
     }
+    Student: "How are you"
+    You:
+    {
+        "message" : "I'm doing great! Ready to start your fitness journey?"
+    }
     Student: "How do I get fit?"
     You:
     {
